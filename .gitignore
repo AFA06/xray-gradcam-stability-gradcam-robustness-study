@@ -1,0 +1,26 @@
+# Dataset (exclude completely)
+data/
+data/images_30k/
+data/images_30k_final/
+
+# Environments
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Outputs
+results/
+gradcam_results/
+
+# Archives
+*.tar.gz
+
+# IDE
+.vscode/
